@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.register{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+.rFrame{
+    display: flex;
+    position: relative;
+    height: 600px;
+    width: 400px;
+    background: rgb(29, 35, 49); 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    border-radius: 30px;
+    gap: 20px;
+}
+.rFrame h1{
+    color: rgb(139,83,254);
+}
+.rFrame input{
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+}
+.rMessageBlock{
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    gap: 0px;
+}
+.rMessageBlock .axiosMessage{
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+}
+.rButton{
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    background: rgb(143, 255, 1); 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center; 
+    font-family: "Poppins";
+    font-weight: 700;
+    color: rgb(29, 35, 49);
+    border-radius: 10px;
+}
+ .rButton:hover {
+    background: rgb(199, 199, 199);
+    color: rgb(139,83,254);
+ }
+
+ .signin{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+.lFrame{
+     display: flex;
+    position: relative;
+    height: 600px;
+    width: 400px;
+    background: rgb(29, 35, 49); 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    border-radius: 30px;
+    gap: 20px;
+}
+.lFrame h1{
+    color: rgb(139,83,254);
+}
+.lFrame input{
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+}
+.lMessageBlock{
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    gap: 0px;
+}
+.lMessageBlock .axiosMessage{
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+}
+.lButton{
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    background: rgb(143, 255, 1); 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center; 
+    font-family: "Poppins";
+    font-weight: 700;
+    color: rgb(29, 35, 49);
+    border-radius: 10px;
+}
+ .lButton:hover {
+    background: rgb(199, 199, 199);
+    color: rgb(139,83,254);
+ }
+ .goToRegister{
+    display: flex;
+    position: relative;
+    color: rgb(139,83,254);
+    font-family: "Poppins";
+    cursor: pointer;
+ }
+ .goToRegister:hover{
+    color: rgb(143, 255, 1);
+ }
+ .goToLogin{
+    display: flex;
+    position: relative;
+    color: rgb(139,83,254);
+    font-family: "Poppins";
+    cursor: pointer;
+ }
+ .goToLogin:hover{
+    color: rgb(143, 255, 1);
+ }
+
+ /*.Main page layout */
+.frame{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(230,235,249);
+    flex-direction: row;
+}
+
+h1{
+    font-family: "Poppins";
+}
+
+.panel{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(253,255,252);
+    flex-direction: column;
+    overflow: hidden;
+    gap: 30px;
+}
+
+.blockA{
+    display: flex;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background: rgb(199, 199, 199);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.a1{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 30%;
+    background: rgb(29, 35, 49);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30px;   
+}
+@media (min-width:1024px) {
+    .a1{
+    height: 50px;
+    width: 80%;   
+    }
+}
+.pagename{
+    display: flex;
+    position: relative;
+    font-family: "Poppins";
+    font-weight:700 ;
+    font-size: 20px;
+    color: rgb(143, 255, 1);
+}
+.a2{
+   display: flex;
+    position: relative;
+    height: 50px;
+    width: 20%;
+    background: rgb(29, 35, 49);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30px; 
+    gap: 0px;  
+    overflow: hidden;
+}
+@media (min-width:1024px) {
+    .a2{
+    height: 50px;
+    width: 10%;   
+    }
+}
+.timeBlock{
+    display: flex;
+    position: relative;
+    height: 20px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30px; 
+    gap: 4px;   
+}
+.calendarBlock{
+    display: flex;
+    position: relative;
+    height: 20px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30px; 
+    gap: 4px;   
+}
+ .a2 .year{
+    display: flex;
+    position: relative;
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+    font-size: 12px;
+ }
+  .a2 .month{
+    display: flex;
+    position: relative;
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+    font-size: 12px;
+ }
+  .a2 .date{
+    display: flex;
+    position: relative;
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+    font-size: 12px;
+ }
+ .a2 .hours{
+    display: flex;
+    position: relative;
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+    font-size: 12px;
+ }
+  .a2 .minutes{
+    display: flex;
+    position: relative;
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+    font-size: 12px;
+ }
+  .a2 .seconds{
+    display: flex;
+    position: relative;
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+    font-size: 12px;
+ }
+  .a2 .day{
+    display: flex;
+    position: relative;
+    color: rgb(143, 255, 1);
+    font-family: "Poppins";
+    font-size: 12px;
+ }
+.blockB{
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background: rgb(199, 199, 199);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.b1{
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 45%;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30px;  
+    gap: 10px;
+}
+.b2{
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 45%;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30px;  
+}
+.blockC{
+    display: flex;
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background: rgb(199, 199, 199);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.c1{
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 45%;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30px;  
+}
+.c1 .dataList{
+    display: flex;
+    position: relative;
+    height: 25px;
+    width: 95%;
+    background: rgb(29, 35, 49);
+    color: rgb(199, 199, 199);
+    font-family: "Poppins";
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    gap: 5px;
+}
+.c2{
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 45%;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30px;  
+}
+input{
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 700;
+    border-radius: 30px;
+    background: rgb(29, 35, 49);
+    color: rgb(199, 199, 199);
+    border: none;
+    height: 40px;
+    width: 250px;
+}
+.bHeader{
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 250px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center; 
+    font-family: "Poppins";
+    font-weight: 700;  
+    color: rgb(143, 255, 1);
+    background: rgb(29, 35, 49);
+    border-radius: 8px;
+}
+.sendBtn{
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 250px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center; 
+    font-family: "Poppins";
+    font-weight: 700;  
+    color: rgb(143, 255, 1);
+    background: rgb(29, 35, 49);
+    border-radius: 8px;
+}
+.sendBtn:hover{
+    background: rgb(139,83,254);
+    color: rgb(199, 199, 199);
+    cursor: pointer;
+    transition: 0.5ms ease;
+}
+.deleteData{
+    display: flex;
+    position: relative;
+    height: 25px;
+    width: 70px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center; 
+    font-family: "Poppins";
+    font-weight: 700;  
+    color: rgb(143, 255, 1);
+    background: rgb(139,83,254);
+    border-radius: 8px;
+    cursor: pointer;
+}
+h3{
+    display: flex;
+    position: relative;  
+    font-family: "Poppins";
+    font-weight: 700;  
+    color: rgb(29, 35, 49);
+}
+.readData{
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 250px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center; 
+    font-family: "Poppins";
+    font-weight: 700;  
+    color: rgb(143, 255, 1);
+    background: rgb(139,83,254);
+    border-radius: 8px;  
+    cursor: pointer;
+}
